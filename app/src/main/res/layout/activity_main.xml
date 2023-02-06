@@ -4,33 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DDDDDD"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="216dp"
-        android:layout_height="120dp"
-        android:text="DISMISS"
-        app:backgroundTint="#AFA0A0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.993" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="204dp"
-        android:layout_height="120dp"
+        android:id="@+id/Resbutton"
+        android:layout_width="405dp"
+        android:layout_height="153dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
         android:text="RESCHDULE"
-        app:backgroundTint="#FF6535"
+        android:textSize="34sp"
+        app:backgroundTint="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.993" />
+        app:layout_constraintVertical_bias="0.998" />
 
     <Button
         android:id="@+id/button3"
@@ -45,26 +35,33 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="330dp"
-        android:layout_height="51dp"
+        android:layout_width="403dp"
+        android:layout_height="124dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
         android:text="SIMULATED NOTIFYING SYSTEM"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="171dp"
-        android:layout_height="38dp"
+        android:layout_width="292dp"
+        android:layout_height="107dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
         android:text="WELCOME"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.216" />
 </androidx.constraintlayout.widget.ConstraintLayout>
